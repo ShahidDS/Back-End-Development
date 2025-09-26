@@ -1,0 +1,23 @@
+{
+  "name": "airbnd-project",
+  "version": "1.0.0",
+  "description": "This is a learnig project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shahidDS"
+  },
+  "author": "Shahid Manzoor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
