@@ -1,0 +1,16 @@
+# GameStudio Database Setup
+
+## Quick Start
+1. Install Docker and Docker Compose
+2. Run: `docker-compose up -d`
+3. Access:
+   - PostgreSQL: `localhost:5432`
+   - pgAdmin: `http://localhost:5050`
+
+
+# Pull images
+docker pull shahidds/gamestudio:1.0
+
+
+# Run containers
+docker run -d -p 5432:5432 shahidds/gamestudio:1.0
